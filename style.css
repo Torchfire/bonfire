@@ -1,13 +1,19 @@
 /*
-Theme Name: Starkers HTML5
-Theme URI: http://nathanstaines.com
-Description: An HTML5 version of <a href="http://elliotjaystocks.com/starkers/">Starkers</a> by <a href="http://elliotjaystocks.com/">Elliot Jay Stocks</a> which is based on Twenty Ten.
-Version: 3.2
-Author: Nathan Staines
-Author URI: http://nathanstaines.com
-Tags: starkers, html5, naked, clean, basic
+Theme Name: Bonfire
+Theme URI: http://sparkatorchfire.org/tech
+Description: Main Wordpress theme for Torchfire website. Based on HTML5 version of <a href="http://elliotjaystocks.com/starkers/">Starkers</a> by <a href="http://elliotjaystocks.com/">Elliot Jay Stocks</a> which is based on Twenty Ten. There is alot of appropriation going on here. This is standing on the shoulders of giants.
+Version: 0.0.1
+Author: Miquel Brazil [thingwone]
+Author URI: http://thingwone.com/aboutme
 */
 
 @import "css/reset.css";
 @import "css/layout.css";
-@import "css/960gs/code/css/960_12_col.css"
+
+body { 
+background: url(images/cleveland-skyline.png) no-repeat center center fixed;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
