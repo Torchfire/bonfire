@@ -68,7 +68,7 @@ Verdana, Tahoma, Geneva, sans-serif - t
 @font-face {
 	font-family: 'EntypoSocial';
 	src: url(../fonts/entypo-social/entypo-social.eot);
-	src: local(‚ò∫'), 
+	src: local('∫'), 
 			 url(/../fonts/entypo-social/entypo-social.woff) format('woff'), 
 			 url(/../fonts/entypo-social/entypo-social.ttf) format('truetype'),
 			 url(/../fonts/entypo-social/entypo-social.svg#entypo-social) format('svg');
