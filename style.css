@@ -9,11 +9,110 @@ Author URI: http://thingwone.com/aboutme
 
 @import "css/reset.css";
 @import "css/layout.css";
+@import "css/typography.css"
+@import "css/960gs/code/css/960_12_col.css";
 
-body { 
+html, body{
+    /* any div up to fullscreen-cont must have this
+    in this case html and body */
+    height:100%;
+    min-height:100%;
+    margin:0;
+}
+
+html { 
 	background: url(images/bonfire-cover_page-background.jpg) no-repeat center center fixed;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+#foundation {
+	/* background-color: blue; */
+	text-align: center;
+	padding-top: 275px;
+	color: white;
+}
+
+#foundation header {
+	/*background-color: green;*/
+	width: 850px;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	/*margin-top: 200px;*/
+	/*padding-top: 400px;*/
+	background: url(images/bonfire-cover_page-logo-v2.png) no-repeat center center;
+	font-family: Helvetica, Arial, sans-serif;
+	text-indent: -9999px;
+}
+
+#foundation h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+#foundation p#description {
+	width: 625px;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	/*background-color: gray;*/
+	margin-bottom: 50px;
+}
+
+#foundation dl {
+	width: 750px;
+	margin: 0 auto;
+	/*background-color: green;*/
+}
+
+#foundation dt {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#foundation dd {
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+span.icon {
+	font-family: EntypoSocial;
+	font-size: 5em;
+	color: white;
+	padding: 0 25px;
+	text-shadow: 1px 1px 1px black;
+}
+
+#foundation dd a {
+	text-decoration: none;
+}
+
+#foundation dd a:hover span.icon {
+	color: rgb(250,175,64);
+}
+
+span.text {
+	display: none;
+}
+
+footer {
+	/*background-color: red;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: .8em;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: white;
+	width: 200px;
+}
+
+footer a {
+	color: rgb(250,175,64);
 }
