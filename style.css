@@ -103,7 +103,7 @@ span.text {
 }
 
 footer {
-	background-color: red;
+	/*background-color: red;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: .8em;
@@ -111,7 +111,7 @@ footer {
 	margin-top: 50px;
 	color: white;
 	width: 500px;
-	margin-bottom: 50px;
+	margin-bottom: 75px;
 }
 
 footer a {
