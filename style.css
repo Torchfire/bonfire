@@ -74,6 +74,7 @@ html {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 #foundation dd {
@@ -102,14 +103,15 @@ span.text {
 }
 
 footer {
-	/*background-color: red;*/
+	background-color: red;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: .8em;
 	margin: 0 auto;
 	margin-top: 50px;
 	color: white;
-	width: 200px;
+	width: 500px;
+	margin-bottom: 50px;
 }
 
 footer a {
