@@ -3,20 +3,20 @@
  * Starkers functions and definitions
  *
  * @package WordPress
- * @subpackage Starkers
- * @since Starkers HTML5 3.0
+ * @subpackage Bonfire
+ * @since Bonfire 0.0.5
  */
 
 /** Tell WordPress to run starkers_setup() when the 'after_setup_theme' hook is run. */
-add_action( 'after_setup_theme', 'starkers_setup' );
+add_action( 'after_setup_theme', 'tf_bonfire_setup' );
 
-if ( ! function_exists( 'starkers_setup' ) ):
+if ( ! function_exists( 'tf_bonfire_setup' ) ):
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
  * @since Starkers HTML5 3.0
  */
-function starkers_setup() {
+function tf_bonfire_setup() {
 
 	// Post Format support. You can also use the legacy "gallery" or "asides" (note the plural) categories.
 	add_theme_support( 'post-formats', array( 'aside', 'gallery' ) );
@@ -283,3 +283,15 @@ function starkers_posted_in() {
 	);
 }
 endif;
+
+if ( ! function_exists( 'tf_bonfire_scripts_init' ) ) :
+
+function tf_bonfire_scripts_init() {
+	
+	wp_enqueue_script('jquery');
+	
+}
+
+endif;
+
+add_action( 'init' , 'tf_bonfire_scripts_init' );
